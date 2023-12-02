@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ececec;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 4rem;
+  border-bottom: 1px solid silver;
+}
+.logo h2 {
+  font-weight: 300;
+}
+.logo span {
+  font-weight: 500;
+}
+nav {
+  display: flex;
+  gap: 1rem;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.cart {
+  display: flex;
+  position: relative;
+  color: #adadad;
+  cursor: pointer;
+}
+.search {
+  color: #adadad;
+  cursor: pointer;
+}
+.noti {
+  position: relative;
+  top: -10px;
+  right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  font-size: 0.5rem;
+  color: white;
+}
+
+/* title */
+.title {
+  display: flex;
+  justify-content: center;
+  gap: 23rem;
+}
+.myCart {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  width: 300px;
+}
+
+.nextCart {
+  width: 300px;
+}
+
+/* main */
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* cards */
+
+.card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 3rem;
+  border: 1px solid #26e3bb;
+  border-radius: 50%;
+  color: #26e3bb;
+}
+
+.pic1 {
+  background: linear-gradient(
+    0deg,
+    rgba(43, 35, 172, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.8rem;
+  padding-left: 1rem;
+  min-width: 12rem;
+  min-height: 12rem;
+  border-radius: 1rem;
+  color: white;
+}
+.pic2 {
+  background: linear-gradient(
+    0deg,
+    rgba(172, 94, 35, 1) 0%,
+    rgba(255, 161, 0, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.8rem;
+  padding-left: 1rem;
+  min-width: 12rem;
+  min-height: 12rem;
+  border-radius: 1rem;
+  color: white;
+}
+.file1 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 1rem;
+  color: #25abf2;
+}
+.file2 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 1rem;
+  color: #f28c25;
+}
+.item-name {
+  font-size: 1.25rem;
+}
+.description {
+  font-weight: 100;
+}
+
+.level {
+  display: flex;
+  gap: 0.4rem;
+  padding-top: 1rem;
+}
+
+.ball {
+  background-color: silver;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+}
+.green {
+  background-color: #26e3bb;
+}
+
+select {
+  border: none;
+}
+
+.cost {
+  padding-top: 2rem;
+  font-weight: 300;
+}
+
+/* Order Info */
+.order {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  height: 18rem;
+  border: 1px solid silver;
+  border-radius: 1rem;
+}
+.subtotal {
+  display: flex;
+  justify-content: space-between;
+}
+.coupon form {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #26e3bb;
+}
+form input {
+  padding: 0.5rem;
+  border: 1px solid silver;
+  border-radius: 0.5rem;
+}
+.hr {
+  border-bottom: 1px solid silver;
+}
+.total-payment {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.apply {
+  border: 1px solid #26e3bb;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 8rem;
+  color: #26e3bb;
+  font-weight: 900;
+}
+.payment {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #26e3bb;
+}
+.btn button {
+  padding: 0.25rem 6rem;
+  background-color: #26e3bb;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 900;
+  box-shadow: -2px 5px 24px 0px rgba(0, 0, 0, 0.19);
+}
